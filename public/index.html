@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" href="css/app.css" />
+   <link rel="icon" href="img/logo.png" type="image/x-icon">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+   <title>ProfitAI</title>
+ </head>
+ <body>
+  <div class="container">
+    <div class="headpart">
+      <div class="toper">
+        <div class="toper-inner">
+          <div class="supp">
+            <div class="part1">💬 Support</div>
+            <div class="part2">📧	example@gmail.com</div>
+          </div>
+          <div class="lang">
+            <div class="part3 language-select-wrapper">🌐<select id="language-select">
+              <option value="en">English</option>
+              <option value="de">Deutsch</option>
+              <option value="fr">Français</option>
+            </select>
+          </div>
+            <div class="part4">
+              <a href="#contacts">📄 FAQ</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="toper2">
+        <div class="toper2-inner">
+          <a href="#" class="present">
+            <div class="logo">
+              <img src="img/corrected.png" alt="Logo">
+            </div>
+            <div class="name">ProfitAI</div>
+          </a>
+      
+          <div class="navbar">
+            <ul class="navi">
+              <a href="#"><li>Home</li></a>
+              <a href="#about" class="nav-link"><li>About Us</li></a>
+              <a href="#prices" class="nav-link"><li>Plans</li></a>
+              <a href="#reviews"><li>Testimonials</li></a>
+              <a href="#contacts"><li>Contact</li></a>
+            </ul>
+          </div>
+      
+          <div class="btn">
+            <a href="#contacts">Join Us</a>
+          </div>
+        </div>
+      </div>
+      <div class="hero-section">
+        <div class="hero-headings">
+          <h1 class="heading1">Predict faster</h1>
+          <h1 class="heading2">Trade with precision</h1>
+          <h1 class="heading3">Eliminate human error</h1>
+        </div>
+      
+        <div class="hero-subtext">
+          Let AI handle every signal, every second, with zero hesitation.
+        </div>
+      
+        <div class="hero-button">
+          <a href="#contacts">Get Started Now</a>
+        </div>
+      
+        <div class="hero-stats">
+          <div class="stat-box">
+            <div class="emoji">🚀</div>
+            <div class="stat-number">236</div>
+            <div class="stat-text">projects<br>completed</div>
+          </div>
+          <div class="stat-box">
+            <div class="emoji">👥</div>
+            <div class="stat-number">1M+</div>
+            <div class="stat-text">happy<br>clients</div>
+          </div>
+          <div class="stat-box">
+            <div class="emoji">🌎</div>
+            <div class="stat-number">23</div>
+            <div class="stat-text">countries<br>reached</div>
+          </div>
+          <div class="stat-box">
+            <div class="emoji">🏆</div>
+            <div class="stat-number">46</div>
+            <div class="stat-text">awards<br>won</div>
+          </div>
+        </div>      
+      </div>
+  
+      <!-- Calcer -->
+  
+      <div class="full-width">
+        <div class="container2">
+          <!-- Icon -->
+          <div class="icon-box">
+            <i class="fas fa-money-bill-wave"></i>
+          </div>
+    
+          <!-- Form Input and Select -->
+          <div class="form-wrapper">
+            <h2>Enter your amount</h2>
+            <div class="input-container">
+              <input type="text" class="amount-input" id="amountInput" placeholder="500$" />
+              <div class="select-overlay">
+                <select id="amountSelect">
+                  <option value="default" selected>250$ start</option>
+                  <option value="500">500$ start</option>
+                  <option value="1000">1000$ start</option>
+                </select>
+              </div>
+              <div id="warning" class="warning-text" style="display: none;">Amount can't be more than 1,000,000</div>
+            </div>
+          </div>
+    
+          <!-- Results -->
+          <div class="results">
+            <div class="result-box">
+              <div class="result-number" id="result1">0</div>
+              <div class="result-label">Day</div>
+            </div>
+            <div class="result-box">
+              <div class="result-number" id="result2">0</div>
+              <div class="result-label">Week</div>
+            </div>
+            <div class="result-box">
+              <div class="result-number" id="result3">0</div>
+              <div class="result-label">Month</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <section class="about-section" id="about">
+      <div class="about-title">
+        About us
+      </div>
+    
+      <div class="about-description">
+        At ProfitAI, we’re transforming the way individuals and institutions invest. Our platform harnesses cutting-edge AI algorithms to deliver smart, adaptive trading strategies. With built-in risk management and human oversight, we offer not just performance, but peace of mind.We stay ahead of the curve by predicting market shifts before they happen.
+      </div>
+    
+
+      <div class="about-content">
+        <div class="about-image">
+          <img src="img/about.png" alt="About Image" />
+        </div>
+    
+
+        <div class="about-text">
+          <h3 class="about-subheading">Who We Are</h3>
+          <p class="about-paragraph">Our professional risk management team oversees market conditions 24/7, ensuring your assets are protected and your future is in safe hands.</p>
+    
+          <div class="features">
+            <div class="feature">
+              <div class="feature-icon">
+                <i class="fas fa-rocket"></i>
+              </div>
+              <div class="feature-text">
+                <h4>Innovation</h4>
+                <p>
+                  We believe the future of investing is intelligent. Our proprietary AI models are continuously analyzing markets.
+                </p>
+              </div>
+            </div>
+    
+            <div class="feature">
+              <div class="feature-icon">
+                <i class="fas fa-users"></i>
+              </div>
+              <div class="feature-text">
+                <h4>Teamwork</h4>
+                <p>
+                  Behind our platform is a diverse team of traders, data scientists, risk analysts, and engineers working as one.
+                </p>
+              </div>
+            </div>
+    
+            <div class="feature">
+              <div class="feature-icon">
+                <i class="fas fa-shield-alt"></i>
+              </div>
+              <div class="feature-text">
+                <h4>Security</h4>
+                <p>
+                  We treat your trust as our greatest asset. That’s why our platform is built with enterprise-grade security
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- banner -->
+
+    <section>
+<div class="steps-section">
+  <div class="steps-wrapper">
+    <div class="steps-container">
+      <!-- Step Item 1 -->
+      <div class="step-item">
+        <div class="step-icon">
+          <img src="img/investor.svg" alt="Step 1">
+        </div>
+        <div class="step-text">
+          <span class="step-number">01</span>
+          <span class="step-description">Free Your Money</span>
+        </div>
+      </div>
+
+      <!-- Step Item 2 -->
+      <div class="step-item">
+        <div class="step-icon">
+          <img src="img/withdraw.svg" alt="Step 2">
+        </div>
+        <div class="step-text">
+          <span class="step-number">02</span>
+          <span class="step-description">Redirect with Purpose</span>
+        </div>
+      </div>
+
+      <!-- Step Item 3 -->
+      <div class="step-item no-border">
+        <div class="step-icon">
+          <img src="img/transfering.svg" alt="Step 3">
+        </div>
+        <div class="step-text">
+          <span class="step-number">03</span>
+          <span class="step-description">Secure Your Future</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    </section>
+
+    <!-- planing -->
+
+    <section class="pricing" id="prices">
+          <div class="pricing-section">
+            <div class="container3">
+              <!-- Title Block -->
+              <div class="pricing-header">
+                <div>
+                  <span class="pricing-subtitle">Smarter Investing Starts Here</span>
+                  <h2 class="pricing-title">Plans built for every level</h2>
+                </div>
+            </div>
+
+    <!-- Pricing Cards Block -->
+    <div class="pricing-cards">
+      <!-- Pricing Card -->
+      <div class="pricing-card">
+        <div class="card-bg">
+          <h3>Spark</h3>
+          <div class="card-icon">
+            <img src="img/bronze-medal.png" alt="Icon">
+          </div>
+          <div class="card-features">
+            <ul>
+              <li><i class="check-icon"></i> Basic AI Market Insights</li>
+              <li><i class="check-icon"></i> Portfolio Risk Analysis</li>
+              <li><i class="check-icon"></i> Auto-Rebalancing</li>
+              <li><i class="check-icon"></i> Beginner AI Signals</li>
+              <li><i class="check-icon"></i> 24/7 Dashboard Access</li>
+            </ul>
+          </div>
+          <div class="card-price">
+            <span class="price">$250</span>
+            <span class="duration">Per Month</span>
+          </div>
+          <a href="#contacts" class="pricing-btn">
+            Get Started
+            <span class="btn-bg"></span>
+          </a>
+        </div>
+      </div>
+
+      <div class="pricing-card">        <div class="card-bg">
+          <h3>Pulse</h3>
+          <div class="card-icon">
+            <img src="img/trophy-1.png" alt="Icon">
+          </div>
+          <div class="card-features">
+            <ul>
+              <li><i class="check-icon"></i> Live AI Trade Alerts</li>
+              <li><i class="check-icon"></i> Smart Asset Diversification</li>
+              <li><i class="check-icon"></i> Sentiment Scanning</li>
+              <li><i class="check-icon"></i> Mid-Level Portfolio Strategy</li>
+              <li><i class="check-icon"></i> Risk & Reward Simulator</li>
+            </ul>
+          </div>
+          <div class="card-price">
+            <span class="price">$500</span>
+            <span class="duration">Per Month</span>
+          </div>
+          <a href="#contacts" class="pricing-btn">
+            Get Started
+            <span class="btn-bg"></span>
+          </a>
+        </div>
+      </div>
+
+      <div class="pricing-card">
+                <div class="card-bg">
+                <h3>Apex</h3>
+                <div class="card-icon">
+                  <img src="img/trophy.png" alt="Icon">
+                </div>
+                <div class="card-features">
+                  <ul>
+                    <li><i class="check-icon"></i> Pro-Level AI Signals</li>
+                    <li><i class="check-icon"></i> Deep Analytics Suite</li>
+                    <li><i class="check-icon"></i> Customizable Strategy Builder</li>
+                    <li><i class="check-icon"></i> 24/7 Human and AI Support</li>
+                    <li><i class="check-icon"></i> Cross-Asset Arbitrage Tools</li>
+                  </ul>
+                </div>
+                <div class="card-price">
+                  <span class="price">$1000</span>
+                  <span class="duration">Per Month</span>
+                </div>
+                <a href="#contacts" class="pricing-btn">
+                  Get Started
+                  <span class="btn-bg"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Carousel -->
+
+    <!-- Reviews -->
+
+    <section id="reviews">
+<div class="reviews-section">
+  <h2>What Our Clients Say</h2>
+  <p class="description">Here are some kind words from our valued clients sharing their experience with our services.</p>
+
+  <div class="carousel-wrapper">
+    <div class="carousel-track" id="carouselTrack">
+      <div class="carousel-item">
+        <div class="review-card">
+          <div class="review-header">
+            <div class="photo"><img src="img/lukas.jpg" alt="Client Photo"></div>
+            <div class="info">
+              <h4>Lukas Schneider</h4>
+              <span>Web Developer</span>
+              <div>Auch ohne Vorkenntnisse wächst mein Portfolio stabil dank dem System.</div>
+            </div>
+          </div>
+          <i class="fas fa-quote-right quote-icon"></i>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="review-card">
+          <div class="review-header">
+            <div class="photo"><img src="img/anna.jpg" alt="Client Photo"></div>
+            <div class="info">
+              <h4>Anna Müller</h4>
+              <span>Risk Analyst</span>
+              <div>Ich habe keine Zeit zum Traden, aber mein Geld wird</div> 
+              <!-- trotzdem sicher verwaltet. -->
+            </div>
+          </div>
+          <i class="fas fa-quote-right quote-icon"></i>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="review-card">
+          <div class="review-header">
+            <div class="photo"><img src="img/felix.jpg" alt="Client Photo"></div>
+            <div class="info">
+              <h4>Felix Hoffmann</h4>
+              <span>Marketing Student</span>
+              <div>The experts and AI handle everything no stress, no time needed.</div>
+            </div>
+          </div>
+          <i class="fas fa-quote-right quote-icon"></i>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="review-card">
+          <div class="review-header">
+            <div class="photo"><img src="img/marc.jpg" alt="Client Photo"></div>
+            <div class="info">
+              <h4>Marc Dubois</h4>
+              <span>Marketing Expert</span>
+              <div>Je n’ai aucune expérience, mais mes investissements progressent.</div>
+            </div>
+          </div>
+          <i class="fas fa-quote-right quote-icon"></i>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="review-card">
+          <div class="review-header">
+            <div class="photo"><img src="img/bram.jpg" alt="Client Photo"></div>
+            <div class="info">
+              <h4>Bram Willems</h4>
+              <span>Photographer</span>
+              <div>Ik doe niets zelf, en toch groeit mijn geld veilig en slim.</div>
+            </div>
+          </div>
+          <i class="fas fa-quote-right quote-icon"></i>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="review-card">
+          <div class="review-header">
+            <div class="photo"><img src="img/elis.jpg" alt="Client Photo"></div>
+            <div class="info">
+              <h4>Élise Moreau</h4>
+              <span>Consultant</span>
+              <div>L’équipe et l’IA gèrent tout. Simple, rapide, efficace. </div>
+            </div>
+          </div>
+          <i class="fas fa-quote-right quote-icon"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Reducer -->
+  <div class="carousel-controls">
+    <span class="arrow" id="prevBtn">&#10094;</span>
+    <div class="dots" id="carouselDots"></div>
+    <span class="arrow" id="nextBtn">&#10095;</span>
+  </div>
+
+  <!-- <p class="final-quote">"We value every word from our clients. Their feedback drives us to do better every day."</p> -->
+</div>
+    </section>
+
+    <!-- Contact -->
+
+
+    <section class="contact-section" id="contacts">
+  <div class="contact-container">
+    <!-- Contact Form -->
+    <div class="contact-form">
+      <h3>Contact Us</h3>
+      <p>We would love to hear from you! Please fill out the form below.</p>
+
+      <form id="contactForm" novalidate>
+        <div class="input-row">
+          <input type="text" name="name" id="name" placeholder="Your Name" required />
+          <input type="email" name="email" id="email" placeholder="Email Address" required />
+        </div>
+        <div class="input-row">
+          <input type="text" name="subject" placeholder="Subject (Optional)" />
+          <input type="tel" name="phone" placeholder="Phone" />
+        </div>
+        <textarea name="message" placeholder="Your Message (Optional)"></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <!-- Q&A Section -->
+    <div class="contact-qa">
+      <h3>Frequently Asked Questions</h3>
+      <p>Here are some of the common queries we receive:</p>
+
+      <div class="qa-item">
+        <a href="#one"><h4><span></span> How does scheduling work with your financial expert?</h4></a>
+        <div class="qa-answer">
+          <p>You can manage your own schedule, and our financial expert will reach out to you at a time that works best for you based on your availability.</p>
+        </div>
+      </div>
+      <div class="qa-item">
+        <a href="#two"><h4><span></span> Is there a minimum amount required to start investing?</h4></a>
+        <div class="qa-answer">
+          <p>Yes, we have flexible starting options depending on the investment plan you choose. Some plans start as low as [insert amount], making it accessible for everyone.</p>
+        </div>
+      </div>
+      <div class="qa-item">
+        <a href="#three"><h4><span></span> How safe is my money on your platform?</h4></a>
+        <div class="qa-answer">
+          <p>Your security is our top priority. We use industry-standard encryption and partner with regulated financial institutions to ensure your funds and data are protected.</p>
+        </div>
+      </div>
+      <div class="qa-item">
+        <a href="#four"><h4><span></span> Can I track my investments in real time?</h4></a>
+        <div class="qa-answer">
+          <p>Absolutely. You’ll have access to a personalized dashboard where you can monitor your investment performance, earnings, and portfolio updates anytime.</p>
+        </div>
+      </div>
+      <div class="qa-item">
+        <a href="#five"><h4><span></span> Do you offer refunds?</h4></a>
+        <div class="qa-answer">
+          <p>We offer refunds for eligible products returned within 14 days.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <section>
+  <footer class="footer">
+    <div class="footer-container">
+
+      <!-- Icon List -->
+      <div class="footer-icons">
+        <ul class="footer-icon-list">
+          <!-- Repeat this <li> 11 times with different content -->
+          <li>
+            <div class="footer-icon-item">
+              <div class="footer-icon-img">
+                <img src="img/bit.png" alt="Icon" />
+              </div>
+              <span>Bitcoin</span>
+            </div>
+          </li>
+          <li>
+            <div class="footer-icon-item">
+              <div class="footer-icon-img">
+                <img src="img/eth.png" alt="Icon" />
+              </div>
+              <span>Etherum</span>
+            </div>
+          </li>
+          <li>
+            <div class="footer-icon-item">
+              <div class="footer-icon-img">
+                <img src="img/credit.png" alt="Icon" />
+              </div>
+              <span>Credit Card</span>
+            </div>
+          </li>
+          <li>
+            <div class="footer-icon-item">
+              <div class="footer-icon-img">
+                <img src="img/ltc.png" alt="Icon" />
+              </div>
+              <span>Litecoin</span>
+            </div>
+          </li>
+          <li>
+            <div class="footer-icon-item">
+              <div class="footer-icon-img">
+                <img src="img/ripple.png" alt="Icon" />
+              </div>
+              <span>Ripple</span>
+            </div>
+          </li>
+          <li>
+            <div class="footer-icon-item">
+              <div class="footer-icon-img">
+                <img src="img/bit.png" alt="Icon" />
+              </div>
+              <span>Bitcoin</span>
+            </div>
+          </li>
+          <li>
+            <div class="footer-icon-item">
+              <div class="footer-icon-img">
+                <img src="img/eth.png" alt="Icon" />
+              </div>
+              <span>Etherum</span>
+            </div>
+          </li>
+          <li>
+            <div class="footer-icon-item">
+              <div class="footer-icon-img">
+                <img src="img/credit.png" alt="Icon" />
+              </div>
+              <span>Credit Card</span>
+            </div>
+          </li>
+          <li>
+            <div class="footer-icon-item">
+              <div class="footer-icon-img">
+                <img src="img/ltc.png" alt="Icon" />
+              </div>
+              <span>Litecoin</span>
+            </div>
+          </li>
+          <li>
+            <div class="footer-icon-item">
+              <div class="footer-icon-img">
+                <img src="img/ripple.png" alt="Icon" />
+              </div>
+              <span>Ripple</span>
+            </div>
+          </li>
+          <li>
+            <div class="footer-icon-item">
+              <div class="footer-icon-img">
+                <img src="img/ripple.png" alt="Icon" />
+              </div>
+              <span>Ripple</span>
+            </div>
+          </li>
+          <!-- Repeat li items here -->
+        </ul>
+      </div>
+
+      <!-- 4 Columns -->
+      <div class="footer-columns">
+
+        <!-- First Column -->
+        <div class="footer-col col-33">
+          <div class="footer-col-content">
+            <div class="footer-logo">
+              <a href="#"><img src="img/logo.png" alt="Logo" /></a>
+            </div>
+            <ul class="footer-contact">
+              <li>
+                <span><img src="img/footer-icon.png" /></span>
+                <div>
+                  <span class="contact-label">Call Us:</span>
+                  <span class="contact-value">+123 456 789</span>
+                </div>
+              </li>
+              <li>
+                <span><img src="img/footer-icon-2.png" /></span>
+                <div>
+                  <span class="contact-label">Email Us:</span>
+                  <span class="contact-value">example@gmail.com</span>
+                </div>
+              </li>
+              <li>
+                <span><img src="img/footer-icon-3.png" /></span>
+                <div>
+                  <span class="contact-label">Address:</span>
+                  <span class="contact-value">86 Mist Street, USA</span>
+                </div>
+              </li>
+              <!-- Add more contacts if needed -->
+            </ul>
+          </div>
+        </div>
+
+        <!-- Second Column -->
+        <div class="footer-col col-16">
+          <div class="footer-links">
+            <h3 class="footer-heading">Links</h3>
+            <ul class="footer-link-list">
+              <li><a href="#"><i class="fas fa-arrow-right"></i> Home</a></li>
+              <li><a href="#"><i class="fas fa-arrow-right"></i> Services</a></li>
+              <li><a href="#"><i class="fas fa-arrow-right"></i> Portfolio</a></li>
+              <li><a href="#"><i class="fas fa-arrow-right"></i> About</a></li>
+              <li><a href="#"><i class="fas fa-arrow-right"></i> Contact</a></li>
+              <li><a href="#"><i class="fas fa-arrow-right"></i> FAQ</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Third Column -->
+        <div class="footer-col col-16">
+          <div class="footer-links about-us">
+            <h3 class="footer-heading">About Us</h3>
+            <ul class="footer-link-list">
+              <li><a href="#"><i class="fas fa-arrow-right"></i> Company</a></li>
+              <li><a href="#"><i class="fas fa-arrow-right"></i> Team</a></li>
+              <li><a href="#"><i class="fas fa-arrow-right"></i> Careers</a></li>
+              <li><a href="#"><i class="fas fa-arrow-right"></i> Blog</a></li>
+              <li><a href="#"><i class="fas fa-arrow-right"></i> Privacy</a></li>
+              <li><a href="#"><i class="fas fa-arrow-right"></i> Terms</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Fourth Column -->
+        <div class="footer-col col-33">
+          <div class="footer-image">
+            <img src="img/footer-img.png" alt="Footer Visual" />
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Bottom Bar -->
+    </div>
+      <div class="footer-bottom">
+        <div class="footer-container footer-bottom-inner">
+          <div class="copyright">
+            <p>Copyright © 2025. All right reserved.</p>
+          </div>
+          <div class="payments">
+            <div>
+              <img src="img/payments.png" alt="Payment Methods" />
+            </div>
+          </div>
+        </div>
+      </div>
+  </footer>
+
+  </section>
+
+  </div>
+    
+
+  <script src="js/index.js"></script>
+ </body>
+ </html>
+ 
